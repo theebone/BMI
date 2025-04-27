@@ -141,7 +141,7 @@ def count_all_data():
     query = """SELECT COUNT(bmi_id) FROM bmi"""
     with psycopg2.connect(dbname="health",
     user ="postgres",
-    password="admin",
+    password="neřeknu",
     host="localhost",
     port="5432") as conn:
         with conn.cursor() as cur:
